@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Slider</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="contactbox">
+        <div class="contacthead">Please enter your contact number &#128520; :</div>
+        <div class="contactslider">
+            <input type="range" id="slider" name="slider" min="1" max="9999999999" value=""
+                oninput="numberOutput.value=slider.value">
+        </div>
+        <div class="contactOut">
+            <div class="fixednum">+91-</div>
+            <output name="numberOutput" id="numberOutput" for="slider"></output>
+        </div>
+        <div class="contactbuts">
+            <button type="button" id="subbut" onclick="refreshSlider()">Submit</button>
+            <button type="button" id="resetbut" onclick="refreshSlider()">Reset</button>
+        </div>
+    </div>
+    <div class="intro">
+        <div class="introbox">
+            <div class="name">
+                <span>The &#128520; way of asking</span>
+            </div>
+            <div class="name name1">
+                <span>contact number</span>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
+        integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
