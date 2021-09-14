@@ -1,4 +1,4 @@
 # JustForFun-contact-slider
 
-The best way to take contact number on your website.  
+The best way to input a contact number.  
 Check it out - https://saurabhburewar.github.io/JustForFun-contact-slider/
